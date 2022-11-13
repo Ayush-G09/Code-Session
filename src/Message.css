@@ -1,0 +1,59 @@
+.M-con{
+    max-width: 30%;
+    height: 10%;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 105%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0px red;
+    display: flex;
+    overflow: hidden;
+    transition: all 2s;
+    z-index: 5;
+}
+
+.M-con-active{
+    left: 65%;
+}
+
+.M-b1{
+    width: 4vw;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.M-b2{
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    animation: Open 10s;
+}
+
+.M-b2 span{
+    width: 98%;
+    height: 90%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.M-b3{
+    width: 2vw;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}

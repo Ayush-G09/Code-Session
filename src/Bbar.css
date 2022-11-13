@@ -1,0 +1,128 @@
+.Bbar-con {
+    width: 7%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc40a;
+    z-index: 2;
+}
+
+.Bbar {
+    width: 60%;
+    height: 85vh;
+    background-color: black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Bbar-b1 {
+    width: 4vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+}
+
+.Bbar-b11 {
+    width: 3vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    transition: 0.3s ease-in;
+}
+
+.Bbar-b12 {
+    width: 11vw;
+    height: 6vh;
+    font-size: 0.6rem;
+    display: none;
+    align-items: center;
+    justify-content: center;  
+    color: #ffc40a;
+    transition: 0.3s ease-in;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    margin-left: 0.5vw;
+}
+
+.Bbar-b1:hover {
+    width: 15vw;
+}
+
+.Bbar-b1:hover > .Bbar-b11 {
+    background-color: #ffc40a;
+    border-radius: 50%;
+    color: black;
+}
+
+.Bbar-b1:hover > .Bbar-b12 {
+    display: flex;
+    background-color: black;
+}
+
+.Bbar-b2 {
+    width: 4vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+    margin-top: 15vh;
+}
+
+.Bbar-b2:hover {
+    width: 15vw;
+}
+
+.Bbar-b2:hover > .Bbar-b11 {
+    background-color: #ffc40a;
+    border-radius: 50%;
+    color: black;
+}
+
+.Bbar-b2:hover > .Bbar-b12 {
+    display: flex;
+    background-color: black;
+}
+
+.Bbar-b3 {
+    width: 4vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+    margin-top: 15vh;
+}
+
+.Bbar-b3:hover {
+    width: 15vw;
+}
+
+.Bbar-b3:hover > .Bbar-b11 {
+    background-color: #ffc40a;
+    border-radius: 50%;
+    color: black;
+}
+
+.Bbar-b3:hover > .Bbar-b12 {
+    display: flex;
+    background-color: black;
+}

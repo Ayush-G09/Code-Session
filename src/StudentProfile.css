@@ -1,0 +1,179 @@
+.Sp-con1{
+    width: 63%;
+    height: 85vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+    margin-right: 1.5%;
+}
+
+.Sp-con1-header{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.Sp-con1-header h1{
+    width: 70%;
+    padding-left: 5%;
+    color: #ffc40e;
+    font-size: 1.8rem;
+}
+
+.Sp-con1-edibt{
+    width: 5.5vh;
+    height: 5.5vh;
+    background-color: rgb(43, 161, 234);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.Sp-con1-edibt:hover{
+    box-shadow: 0px 0px 20px 0px rgb(43, 161, 234);
+}
+
+.Sp-con1-savbt{
+    width: 5.5vh;
+    height: 5.5vh;
+    background-color: lime;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.Sp-con1-savbt:hover{
+    box-shadow: 0px 0px 20px 0px lime;
+}
+
+.Sp-con1-canbt{
+    width: 5.5vh;
+    height: 5.5vh;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.Sp-con1-canbt:hover{
+    box-shadow: 0px 0px 20px 0px crimson;
+}
+
+.Sp-con1-content{
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Sp-con1-content-box{
+    width: 50%;
+    height: 6vh;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    margin-bottom: 4%;
+    z-index: 1;
+}
+
+.Sp-con1-content-box-head{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 80%;
+    background-color: #ffc40e;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem; 
+    font-weight: bold;
+}
+
+.Sp-input{
+    width: 60%;
+    margin-left: 5%;
+    height: 65%;
+    outline: none;
+    pointer-events: none;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.Sp-input::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+
+.Sp-con2{
+    width: 26.5%;
+    height: 85vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+}
+
+.Sp-con2-box1{
+    width: 100%;
+    height: 35%;
+    background-color: #ffc40e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sp-con-box1-logo{
+    width: 17rem;
+    height: 17rem;
+    background-color: black;
+    border-radius: 50%;
+    top: 23%;
+    position: absolute;
+    border: 5px solid white;
+}
+
+.Sp-con-box1-name{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    font-size: 2rem;
+}
+
+.circle1{
+    width: 30rem;
+    height: 30rem;
+    border-top-left-radius: 30%;
+    background-color: #ffc40e;
+    position: absolute;
+    left: 70%;
+    bottom: -5%;
+    z-index: 0;
+}

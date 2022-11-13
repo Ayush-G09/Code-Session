@@ -1,0 +1,8 @@
+.Act-con{
+    width: 91%;
+    height: 85vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+}
