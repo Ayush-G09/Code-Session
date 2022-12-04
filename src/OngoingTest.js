@@ -152,29 +152,36 @@ function Ogt(props) {
         }
         else
         {
-            console.log(data)
-            const request = await axios.post('https://code-sessions-backend.onrender.com/updateTestDetails', data, {headers: headers});
-            if(request.status === 200)
+            if(data4einput[i].value === 0)
             {
-                alert('Test Updated');
+                alert('0 is not allowed');
             }
-            var editbt = document.getElementsByClassName('data6pen');
-            var delebt = document.getElementsByClassName('data6trash');
-            var cancbt = document.getElementsByClassName('data6ban');
-            var savebt = document.getElementsByClassName('data6disk');
-            var h1 = document.getElementsByClassName('data4eh1');
-            var inp = document.getElementsByClassName('data4einput');
-            var d1h1 = document.getElementsByClassName('data1eh1');
-            var d1inp = document.getElementsByClassName('data1einput');
-            d1h1[i].style.display = 'flex';
-            d1inp[i].style.display = 'none';
-            editbt[i].style.display = 'flex';
-            delebt[i].style.display = 'none';
-            cancbt[i].style.display = 'none';
-            savebt[i].style.display = 'none';
-            h1[i].style.display = 'flex';
-            inp[i].style.display = 'none';
-            setSomethingisActivated(false)
+            else
+            {
+                console.log(data)
+                const request = await axios.post('https://code-sessions-backend.onrender.com/updateTestDetails', data, {headers: headers});
+                if(request.status === 200)
+                {
+                    alert('Test Updated');
+                }
+                var editbt = document.getElementsByClassName('data6pen');
+                var delebt = document.getElementsByClassName('data6trash');
+                var cancbt = document.getElementsByClassName('data6ban');
+                var savebt = document.getElementsByClassName('data6disk');
+                var h1 = document.getElementsByClassName('data4eh1');
+                var inp = document.getElementsByClassName('data4einput');
+                var d1h1 = document.getElementsByClassName('data1eh1');
+                var d1inp = document.getElementsByClassName('data1einput');
+                d1h1[i].style.display = 'flex';
+                d1inp[i].style.display = 'none';
+                editbt[i].style.display = 'flex';
+                delebt[i].style.display = 'none';
+                cancbt[i].style.display = 'none';
+                savebt[i].style.display = 'none';
+                h1[i].style.display = 'flex';
+                inp[i].style.display = 'none';
+                setSomethingisActivated(false)
+            }
         }
     }
 

@@ -15,7 +15,7 @@ function StudentProfile(props) {
 
     if(sessionStorage.getItem('jwt') === null)
     {
-        sessionStorage.setItem('jwt', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhdGlrYXBhaTE5QHN2dnYuZWR1LmluIiwicm9sZSI6InN0dWRlbnQiLCJpZCI6Ind4YUoxV1NBYVQwdXFGUE9TN2pfaCIsImlhdCI6MTY2ODM3MjA4NywiZXhwIjoxNjY4Mzg0Njg3fQ.OGeAMNobR6m_ISeaHcc6Prq9LF6vaBtudqsSk81jxdg')
+        sessionStorage.setItem('jwt', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxhdGlrYXBhaTE5QHN2dnYuZWR1LmluIiwicm9sZSI6InN0dWRlbnQiLCJpZCI6IldmSWRxOXR3a3IxaUFXRjh6UzVXWCIsImlhdCI6MTY3MDE4NTg1NywiZXhwIjoxNjcwNzkwNjU3fQ.W34ITLEK_DlIiV4BKpvKVE41-0DS0bcCwjYPDXbKMOI')
     }
 
     var headers = {
@@ -33,6 +33,7 @@ function StudentProfile(props) {
         setBranch(request.data.check.branch);
         setcontact(request.data.check.contact);
         sessionStorage.setItem('stuid', request.data.check._id);
+        sessionStorage.setItem('name', request.data.check.fullName);
     }
     
     function EditClick() {
